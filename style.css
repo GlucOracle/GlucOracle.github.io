@@ -198,6 +198,36 @@ h1 {
 }
 
 
+
+/*------------------------------------------/
+/-----------------Using the app---------------/
+/------------------------------------------*/
+.using_app
+{
+	padding: 100px 0px;
+
+}
+.quotes
+{
+	margin-top: 60px;
+	font-family: "Source Sans Pro",sans-serif;
+	color: #888;
+}
+.quotes blockquote
+{
+	margin-bottom: 0px !important;
+}
+.name
+{
+	text-align: right;
+	font-style:italic;
+	font-weight: 400;
+	font-size: 15px;
+	color: #242424;
+}
+
+
+
 /*------------------------------------------/
 /-----------------Features------------------/
 /------------------------------------------*/
@@ -284,6 +314,8 @@ h1 {
 	letter-spacing: 1px;
 	text-transform: uppercase;
 }
+
+
 .desc
 {
 	 font-family: "Source Sans Pro",sans-serif;
@@ -321,13 +353,9 @@ h1 {
 }
 
 
-
-
-
 #galleryimg .mix{
 	display: none;
 }
-
 
 .grid {
 	position: relative;
@@ -457,14 +485,14 @@ figure.effect-Beauty:hover p {
 
 
 /*------------------------------------------/
-/-----------------Notes----------------------/
+/-----------------Forecast----------------------/
 /------------------------------------------*/
-.notes
+.forecast
 {
 	background-color: #341F48;
 	padding: 100px 0px;
 }
-.notes p
+.forecast p
 {
 	color: #fff;
 	font-family: "Source Sans Pro",sans-serif;
@@ -472,7 +500,7 @@ figure.effect-Beauty:hover p {
 	font-size: 18px;
 	margin: 0px;
 }
-.notes button
+.forecast button
 {
 	display: inline-block;
 	border: medium none;
@@ -503,9 +531,17 @@ figure.effect-Beauty:hover p {
 	letter-spacing: 1px;
 	text-transform: uppercase;
 }
+
+/*------------------------------------------/
+/-----------------Contact---------------------/
+/------------------------------------------*/
+
+
+
 /*------------------------------------------/
 /-----------------About---------------------/
-/------------------------------------------*/
+/-----------------------------------------------------*/
+
 
 .about
 {
@@ -553,54 +589,14 @@ figure.effect-Beauty:hover p {
 
 
 
-/*------------------------------------------/
-/-----------------Team----------------------/
-/------------------------------------------*/
-
-
-
-
 
 
 
 
 
 /*------------------------------------------/
-/-----------------Using the app---------------/
+/-----------------Sign up / former SUBSCRIBE section------------------/
 /------------------------------------------*/
-.using_app
-{
-	padding: 100px 0px;
-
-}
-.quotes
-{
-	margin-top: 60px;
-	font-family: "Source Sans Pro",sans-serif;
-	color: #888;
-}
-.quotes blockquote
-{
-	margin-bottom: 0px !important;
-}
-.name
-{
-	text-align: right;
-	font-style:italic;
-	font-weight: 400;
-	font-size: 15px;
-	color: #242424;
-}
-
-
-
-
-
-
-/*------------------------------------------/
-/-----------------Subscribe------------------/
-/------------------------------------------*/
-
 .subscribe-social
 {
 	background-color: #CB5750;
@@ -642,6 +638,19 @@ figure.effect-Beauty:hover p {
 	padding: 60px 0px;
 	background-color: rgba(0,0,0,0.1)
 }
+
+/*------------------------
+this image setting keeps the CUMC logo at a reasonable size
+------------------------*/
+
+.address img
+{
+	height: auto; 
+    width: auto; 
+    max-width: 350px; 
+    max-height: 350px;
+}
+
 .info p
 {
 	font-family: "Source Sans Pro",sans-serif;
@@ -661,23 +670,29 @@ figure.effect-Beauty:hover p {
 .form-control::-moz-placeholder { color: white !important; }
 .form-control:-ms-input-placeholder { color: white !important; }
 
+
+
+
+
+
 /*------------------------------------------/
 /-----------------Footer--------------------/
 /------------------------------------------*/
 .foot
 {
+	background-color: #CB5750;
 	padding: 50px 0px 30px;
 }
 .foot-logo
 {
 	font-family: 'Pacifico', cursive;
-	color: #3EC9C3;	
+	color: #ffffff;	
 	font-size: 30px;
 	text-align: center;
 }
 .foot-text
 {
-	color: #888;
+	color: #ffffff;
 	font-family: "Source Sans Pro",sans-serif;
 	font-size: 12px;
 	font-weight: 600;
@@ -686,7 +701,7 @@ figure.effect-Beauty:hover p {
 }
 .foot-text a
 {
-	color: #3EC9C3;	
+	color: #ffffff;	
 }
 
 
