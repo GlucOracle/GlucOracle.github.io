@@ -25,7 +25,14 @@ h1 {
 	background: -webkit-linear-gradient(left, #341F48 50%, #2b193c 50%);
 	background: -o-linear-gradient(left, #341F48 50%, #2b193c 50%);
 	background: linear-gradient(left, #341F48 50%, #2b193c 50%);*/
-	background-image: url("images/gluc-background.jpg"); 
+	/*background-image: url("images/gluc-background.jpg"); */
+
+	background-image: url("images/gluc-background.jpg");
+	background: -moz-linear-gradient(left);
+	background: -webkit-linear-gradient(left);
+	background: -o-linear-gradient(left);
+	background: linear-gradient(left);
+
 }
 
 .banner-text 
