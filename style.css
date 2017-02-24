@@ -457,7 +457,7 @@ figure.effect-Beauty:hover p {
 
 
 /*------------------------------------------/
-/-----------------Note----------------------/
+/-----------------Notes----------------------/
 /------------------------------------------*/
 .notes
 {
@@ -482,7 +482,27 @@ figure.effect-Beauty:hover p {
 	border-radius: 4px;
 	font-size: 20px;
 }
-
+.all-td
+{
+	font-family: 'Raleway', sans-serif;
+	font-size: 22px;
+	font-weight: 300;
+	color: #242424;
+	/*color: rgba(224, 224, 224, 0.75);*/
+	text-transform: uppercase;
+	margin: 0px;
+	letter-spacing: 2px;
+}
+.alldesc h2 
+{
+    color: #CB5750;
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 40px;
+    margin-top: 0px !important;
+    font-weight: 600;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
 /*------------------------------------------/
 /-----------------About---------------------/
 /------------------------------------------*/

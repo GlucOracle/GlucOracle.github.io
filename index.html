@@ -23,6 +23,7 @@
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
 <!-- ######################################################################### --> 
 <!-- MAIN BANNER WITH ORACLE BACKGROUND --> 
+<!-- refer to .banner in HEADER section in the CSS file --> 
    <div class="container-fluid banner text-center" id="banner"> 
     <div class="row">
     <div class="col-md-12 line">
@@ -184,9 +185,9 @@
 <!-- ######################################################################### --> 
 <!-- PERSONALIZED COMPUTATIONAL MODEL --> 
 <body>
-<div class="gallery" id="gallery">
+  <div class="gallery" id="gallery">
     <div class="container">
-    <div class="row">
+      <div class="row">
         <div class="col-md-12 col-sm-12 col-xs-12">
           <div class="alldesc">
               <div class="col-md-6 col-sm-6 col-xs-12 centertext">
@@ -195,16 +196,17 @@
               </div>
           </div>
         </div>       
+        <!-- Teal strip above the images -->
         <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="galleryimg" id="galleryimg"> <!-- gives the teal-ish background color --> 
           <div class="sorting pull-left">
               <div class="filter pull-left filimg" data-filter="all">Your data will be used to train your computational model of your glycemic function</div>           
           </div>
+          </div>
         </div>
+        
         <div class="col-md-12 col-sm-12 col-xs-12">
-        <div class="galleryimg" id="galleryimg">  
-
-
-
+            <!-- pic 1 -->
             <div class="grid mix category-1 col-md-4 col-sm-6 col-xs-6" data-myorder="1">             
               <img src="images/compu1.jpg" height="300" width="350"/>
               <figcaption>
@@ -212,70 +214,59 @@
                 <p>what you can do with your data</p>             
               </figcaption>    
             </div>
-
-
-          <div class="grid mix category-1 col-md-4 col-sm-6 col-xs-6" data-myorder="2">            
-            <img src="images/compu2.jpg" height="300" width="350"/>
-            <figcaption>
-              <h2><span>self-monitoring</span></h2>
-              <p>what will you do with your data</p>            
-            </figcaption>              
-          </div>
-
-
-
-          <div class="grid mix category-1 col-md-4 col-sm-6 col-xs-6" data-myorder="3">          
-            <img src="images/compu4.jpg" height="300" width="350"/>
-            <figcaption>
-              <h2> <span>self-monitoring</span></h2>
-              <p>we will tailor your data so you can use it</p>           
-            </figcaption>     
-          </div> 
-
-
-
-
-
-
+            <!-- pic 2 -->
+            <div class="grid mix category-1 col-md-4 col-sm-6 col-xs-6" data-myorder="2">            
+              <img src="images/compu2.jpg" height="300" width="350"/>
+              <figcaption>
+                <h2><span>self-monitoring</span></h2>
+                <p>what will you do with your data</p>            
+              </figcaption>              
+            </div>
+            <!-- pic 3 -->
+            <div class="grid mix category-1 col-md-4 col-sm-6 col-xs-6" data-myorder="3">          
+              <img src="images/compu4.jpg" height="300" width="350"/>
+              <figcaption>
+                <h2> <span>self-monitoring</span></h2>
+                <p>we will tailor your data so you can use it</p>           
+              </figcaption>     
+            </div>              
+        </div>
       </div>
-      </div>
+    </div>
   </div>
-  </div>
-</div>
 <!-- ######################################################################### --> 
-<div class="notes">
+<!-- GLUCORACLE HELPS YOU MAKE INFORMED CHOICES (PURPLE SECTION) -->
+
+  <div class="notes">
     <div class="container">
-    <div class="row">
-      <div class="alldesc">
-        <div class="col-md-12 col-sm-12 col-xs-12">  
-            <h2>Use GlucOracle to make <br>more informed choices</h2>
-      
-          <div class="grid mix category-2 col-md-4 col-sm-6 col-xs-6" data-myorder="1">
-            <figure >
-                <img src="images/3ff.png" height="500" width="350"/>
-                
-                <figcaption>
-                  <p></p>
-                </figcaption> 
-
-              </figure>
+      <div class="row">
+        <div class="alldesc">
+          <div class="col-md-12 col-sm-12 col-xs-12">  
+              <h2>Use GlucOracle to make <br>more informed choices</h2>
+              <p> COMPARE YOUR BLOOD GLUCOSE FORECAST BASED ON WHAT YOU ATE</p>
+            <div class="grid mix category-2 col-md-6 col-sm-6 col-xs-6" data-myorder="1">
+              <figure >
+                  <img src="images/3ff.png" height="500" width="350"/>
+                  <div>               
+                    CONSUMPTION OF 3 FRENCH FRIES
+                  </div>
+                </figure>
+            </div>
+            <div class="grid mix category-2 col-md-6 col-sm-6 col-xs-6" data-myorder="1">
+              <figure >
+                  <img src="images/6ff.png" height="500" width="350"/>
+                  <div>               
+                    CONSUMPTION OF 6 FRENCH FRIES
+                  </div>
+            </div>
           </div>
-          <div class="grid mix category-2 col-md-4 col-sm-6 col-xs-6" data-myorder="1">
-            <figure >
-                <img src="images/6ff.png" height="500" width="350"/>
-                <figcaption>
-                  <p></p>
-                </figcaption>     
-              </figure>
-          </div>
-
+        </div>  
       </div>
-    </div>  
-  </div>
-  </div>
- </div> 
+    </div>
+  </div> 
 </body>
 <!-- ######################################################################### --> 
+<!--
 <div class="comment" id="comment">
   <div style="padding: 100px 0px 0px 0px;">
    <div class="container">
@@ -287,15 +278,14 @@
                     <h2>Comment</h2>
                   </div>
                   <div class="col-md-6 col-sm-6 col-xs-12">
-                    
+-->                     
                   <link rel="stylesheet" type="text/css" href="//www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
                   <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="//www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&opts=16862&num=10&ts=1465219280432");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
                   </div>
           </div>
           </div>
         </div>
-    </div>
-
+    </div> 
 <!-- ######################################################################### --> 
 <div class="subscribe-social">\
 <div style="padding: 0px 0px 30px 0px;">
