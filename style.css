@@ -21,10 +21,11 @@ h1 {
 .banner
 {
 	/*background-color: #341F48;*/
-	background: -moz-linear-gradient(left, #341F48 50%, #2b193c 50%);
+	/*background: -moz-linear-gradient(left, #341F48 50%, #2b193c 50%);
 	background: -webkit-linear-gradient(left, #341F48 50%, #2b193c 50%);
 	background: -o-linear-gradient(left, #341F48 50%, #2b193c 50%);
-	background: linear-gradient(left, #341F48 50%, #2b193c 50%);
+	background: linear-gradient(left, #341F48 50%, #2b193c 50%);*/
+	background-image: url("images/gluc-background.jpg"); 
 }
 
 .banner-text 
@@ -190,24 +191,6 @@ h1 {
 
 
 /*------------------------------------------/
-/-----------------Banner--------------------/
-/------------------------------------------*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*------------------------------------------/
 /-----------------Features------------------/
 /------------------------------------------*/
 
@@ -264,6 +247,8 @@ h1 {
 .gallery
 {
 	padding: 100px 0px;
+	/*background: -webkit-linear-gradient(left,#3EC9C3 50%, #3EC9C3 50%);*/
+	
 }
 .all-td
 {
@@ -271,6 +256,7 @@ h1 {
 	font-size: 22px;
 	font-weight: 300;
 	color: #242424;
+	/*color: rgba(224, 224, 224, 0.75);*/
 	text-transform: uppercase;
 	margin: 0px;
 	letter-spacing: 2px;
@@ -457,26 +443,6 @@ figure.effect-Beauty:hover p {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*------------------------------------------/
 /-----------------Note----------------------/
 /------------------------------------------*/
@@ -512,6 +478,7 @@ figure.effect-Beauty:hover p {
 {
 	padding: 100px 0px;
 	border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+
 }
 .progresscount
 {
@@ -571,6 +538,7 @@ figure.effect-Beauty:hover p {
 .testimonials
 {
 	padding: 100px 0px;
+
 }
 .quotes
 {
