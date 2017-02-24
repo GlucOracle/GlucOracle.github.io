@@ -32,6 +32,7 @@ h1 {
 	background: -webkit-linear-gradient(left);
 	background: -o-linear-gradient(left);
 	background: linear-gradient(left);
+	background-size: cover;
 
 }
 
