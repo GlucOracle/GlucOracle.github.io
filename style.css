@@ -278,6 +278,7 @@ h1 {
 .feature-icons img
 {
 	width: 100%;
+	display:inline-block;
 }
 .fh-desc
 {
