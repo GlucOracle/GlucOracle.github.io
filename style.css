@@ -148,7 +148,10 @@ h1 {
 	font-weight: bold;
 	font-size: 30px;
 	letter-spacing: 2px;
-	padding: 0px ;
+	padding-top: 0px;
+    padding-right: 5px;
+    padding-bottom: 0px;
+    padding-left: 0px;
 }
 .banner-text h2
 {
