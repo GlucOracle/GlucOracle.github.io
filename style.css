@@ -282,7 +282,8 @@ h1 {
 .fh-desc
 {
 	width: 80%;
-	float: right;
+	/*  float used to be right   */
+	float: left;
 }
 
 .fh-desc h3
