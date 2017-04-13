@@ -134,7 +134,7 @@ h1 {
 	/*text-transform: uppercase;
 	maybe add bold font or sth
 	*/
-	font-size: 20px;
+	font-size: 40px;
 	letter-spacing: 2px;
 	padding: 0px !important;
 }
@@ -145,7 +145,7 @@ h1 {
 	color: #fff;
 	font-weight: 400;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 30px;
 	letter-spacing: 2px;
 	padding: 0px !important;
 }
