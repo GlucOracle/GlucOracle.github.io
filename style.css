@@ -28,6 +28,7 @@ h1 {
 	/*background-image: url("images/gluc-background.jpg"); */
 
 	/*background-image: url("images/gluc-background.jpg");*/
+	background-color: #d9d9d9;
 	background: -moz-linear-gradient(left);
 	background: -webkit-linear-gradient(left);
 	background: -o-linear-gradient(left);
