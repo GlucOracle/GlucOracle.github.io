@@ -111,10 +111,18 @@ h1 {
 	color: #33A29D;
 	font-size: 60px;
 }
+
+.hostyle2
+{
+	font-family: 'Signika', cursive;
+	/*color: #c6027f;	*/
+	color: #33A29D;
+	font-size: 60px;
+}
 .title_style
 {
 	font-family: 'Signika';
-	color: #c6027f;
+
 	color: #33A29D;
 	font-size: 60px;
 }
