@@ -111,6 +111,7 @@ h1 {
 {
 	font-family: 'Pacifico', cursive;
 	/*color: #c6027f;	*/
+	white-space: nowrap;
 	color: #33A29D;
 	font-size: 60px;
 }
@@ -119,6 +120,7 @@ h1 {
 {
 	/*font-family: 'Arimo', cursive;*/
 	font-family: 'Raleway', sans-serif;
+	white-space: nowrap;
 	/*color: #c6027f;	*/
 	color: #33A29D;
 	font-size: 60px;
