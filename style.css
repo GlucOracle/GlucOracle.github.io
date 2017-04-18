@@ -102,7 +102,9 @@ h1 {
 }
 .tablebox
 {
-	display: table;
+	/*display: table;*/
+	display:inline-block;
+	text-align: center;
 	width: 100%;
 }
 .hostyle
