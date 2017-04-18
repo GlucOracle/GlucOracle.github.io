@@ -125,6 +125,7 @@ h1 {
 	/*white-space: nowrap;
 	text-overflow: ellipsis;*/
 	/*color: #c6027f;	*/
+	float:right;
 	color: #33A29D;
 	font-size: 60px;
 }
