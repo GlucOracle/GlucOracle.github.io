@@ -154,8 +154,15 @@ h1 {
     padding-left: 0px;
 }
 
-.inline {
+/*This was supposed to make the Google iOS buttons be placed side by side. 
+Instead it made the navigation tool bar thicker and awkward looking.  */
+/*.inline {
    display:inline-block;
+   margin-right:5px;
+}*/
+
+.floated {
+   float:left;
    margin-right:5px;
 }
 
@@ -197,6 +204,7 @@ h1 {
     50% { opacity:0; }
     100% { opacity:1; }
 }
+
 .menubar
 {
 	margin-bottom: 0px !important;
