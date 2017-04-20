@@ -320,7 +320,7 @@ Instead it made the navigation tool bar thicker and awkward looking.  */
 {
 	width: 80%;
 	/*  float changed from left   */
-	float: right;
+	float: left;
 }
 
 .fh-desc h3
