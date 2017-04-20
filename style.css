@@ -165,10 +165,12 @@ h1 {
 
 /*This was supposed to make the Google iOS buttons be placed side by side. 
 Instead it made the navigation tool bar thicker and awkward looking.  */
-.inline {
+
+
+/*.inline {
    display:inline-block;
    margin-right:5px;
-}
+}*/
 
 /*.floated {
    float:left;
@@ -214,6 +216,9 @@ Instead it made the navigation tool bar thicker and awkward looking.  */
     100% { opacity:1; }
 }
 
+/*------------------------------------------/
+/*-----------------MENUBAR-----------------*/
+/*------------------------------------------*/
 .menubar
 {
 	margin-bottom: 0px !important;
@@ -222,6 +227,8 @@ Instead it made the navigation tool bar thicker and awkward looking.  */
 	border-radius: 0px !important;
 	z-index: 2;
 }
+
+/*navigation bar "GlucOracle" logo*/
 .logo
 {
 	padding: 24px 15px !important;
@@ -231,7 +238,7 @@ Instead it made the navigation tool bar thicker and awkward looking.  */
 	color: #fff !important;
 	font-size: 34px !important;	
 }
-
+/*navigation bar menu items starting from "HOME" */
 .navstyle li a
 {
 	padding: 24px 15px !important;
