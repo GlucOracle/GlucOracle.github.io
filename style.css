@@ -46,7 +46,7 @@ h1 {
 {
     text-align: center;
     font-size: 60px;
-    color: rgba(224, 224, 224, 0.75);
+    color: rgba(255, 255, 255, 0.75);
     display: inline-block;
     margin: 30px -2px 0px 0px;
 }
@@ -54,7 +54,7 @@ h1 {
 {
     text-align: center;
     font-size: 60px;
-    color: rgba(224, 224, 224, 0.95);
+    color: rgba(255, 255, 255, 0.95);
     display: inline-block;
     margin: 30px -2px 0px 0px;
 }
