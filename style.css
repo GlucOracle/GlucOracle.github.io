@@ -59,14 +59,14 @@ h1 {
     margin: 30px -2px 0px 0px;
 }
 #heads:before, #heads:after {
-			background: rgba(224, 224, 224, 0.75);
-			content: '';
-			left: 50%;
-			position: absolute;
-			width: 1px;
-			z-index: 0;
-		}
-		#heads::before {
+	background: rgba(224, 224, 224, 0.75);
+	content: '';
+	left: 50%;
+	position: absolute;
+	width: 1px;
+	z-index: 0;
+}
+#heads::before {
     height: calc(100%);
     opacity: 0.15;
     top: 0px;
@@ -74,11 +74,11 @@ h1 {
 .line:before
 {
 	background: rgba(224, 224, 224, 0.75);
-			content: '';
-			position: absolute;
-			width:100%;
-			z-index: 0;
-			padding-left:0px !important;
+	content: '';
+	position: absolute;
+	width:100%;
+	z-index: 0;
+	padding-left:0px !important;
 }
 .line::before
 {
@@ -90,10 +90,10 @@ h1 {
 #menu:before
 {
 	background: rgba(224, 224, 224, 0.75);
-			content: '';
-			position: absolute;
-			width: 100%;
-			z-index: 0;
+	content: '';
+	position: absolute;
+	width: 100%;
+	z-index: 0;
 }
 #menu::before {
     height: 1px;
