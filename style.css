@@ -314,11 +314,13 @@ Instead it made the navigation tool bar thicker and awkward looking.  */
 	width: 100%;
 	display:inline-block;
 }
+
+/*  capital titles after small cute feature icons  */
 .fh-desc
 {
 	width: 80%;
-	/*  float used to be right   */
-	float: left;
+	/*  float changed from left   */
+	float: right;
 }
 
 .fh-desc h3
@@ -358,6 +360,7 @@ Instead it made the navigation tool bar thicker and awkward looking.  */
     font-size: 16px;
     margin-top: 5px;
 	width: 90%;
+	float: right;
 }
 
 /*------------------------------------------/
