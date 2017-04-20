@@ -167,10 +167,10 @@ h1 {
 Instead it made the navigation tool bar thicker and awkward looking.  */
 
 
-/*.inline {
+.inline {
    display:inline-block;
    margin-right:5px;
-}*/
+}
 
 /*.floated {
    float:left;
