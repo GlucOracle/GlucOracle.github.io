@@ -333,6 +333,7 @@ Instead it made the navigation tool bar thicker and awkward looking.  */
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	color: #242424;
+	float:left;
 }
 
 .fh-desc2 h3
@@ -345,6 +346,7 @@ Instead it made the navigation tool bar thicker and awkward looking.  */
 	letter-spacing: 1px;
 	/*color: #242424;*/
 	color: #d9d9d9;
+	float:left;
 }
 
 .fh-desc2 p {
@@ -353,6 +355,7 @@ Instead it made the navigation tool bar thicker and awkward looking.  */
     font-size: 16px;
     margin-top: 5px;
 	width: 85%;
+	float:left;
 }
 
 .fh-desc p {
