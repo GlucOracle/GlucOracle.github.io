@@ -414,6 +414,11 @@ Instead it made the navigation tool bar thicker and awkward looking.  */
 	float: left;
 }
 
+.alldesc p
+{
+	float: left;
+}
+
 .desc
 {
 	 font-family: "Source Sans Pro",sans-serif;
