@@ -406,7 +406,7 @@ Instead it made the navigation tool bar thicker and awkward looking.  */
     font-weight: 600;
 	letter-spacing: 1px;
 	text-transform: uppercase;
-	position: absolute;
+	/*position: absolute;*/
     left: 0px;
 }
 
