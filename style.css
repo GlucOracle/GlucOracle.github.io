@@ -406,6 +406,10 @@ Instead it made the navigation tool bar thicker and awkward looking.  */
 	float: left;
 }
 
+.alldesc h2
+{
+	float: left;
+}
 
 .desc
 {
