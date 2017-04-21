@@ -409,6 +409,7 @@ Instead it made the navigation tool bar thicker and awkward looking.  */
 	position: absolute;
     left: 0px;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .alldesc p
