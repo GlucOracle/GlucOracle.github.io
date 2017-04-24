@@ -314,6 +314,8 @@ Instead it made the navigation tool bar thicker and awkward looking.  */
 {
 	width: 100%;
 	display:inline-block;
+	margin: 0px;
+	float:left;
 }
 
 /*  capital titles after small cute feature icons  */
@@ -397,7 +399,8 @@ Instead it made the navigation tool bar thicker and awkward looking.  */
 	/*color: rgba(224, 224, 224, 0.75);*/
 	text-transform: uppercase;
 	margin: 0px;
-	letter-spacing: 2px;
+	letter-spacing: 1.5px;
+
 }
 .alldesc h2 
 {
