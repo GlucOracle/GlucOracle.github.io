@@ -365,8 +365,8 @@ Instead it made the navigation tool bar thicker and awkward looking.  */
     font-size: 16px;
     /*margin-top: 5px;*/
     margin: 0px;
-	width: 90%;
-	float: right;
+	width: 100%;
+	/*float: right;*/
 }
 
 /*------------------------------------------/
