@@ -353,7 +353,8 @@ Instead it made the navigation tool bar thicker and awkward looking.  */
     color: #d9d9d9;
     font-family: "Source Sans Pro",sans-serif;
     font-size: 16px;
-    margin-top: 5px;
+    /*margin-top: 5px;*/
+    margin: 0px;
 	width: 85%;
 	float:left;
 }
@@ -362,7 +363,8 @@ Instead it made the navigation tool bar thicker and awkward looking.  */
     color: #888;
     font-family: "Source Sans Pro",sans-serif;
     font-size: 16px;
-    margin-top: 5px;
+    /*margin-top: 5px;*/
+    margin: 0px;
 	width: 90%;
 	float: right;
 }
