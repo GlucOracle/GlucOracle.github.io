@@ -228,7 +228,13 @@ Instead it made the navigation tool bar thicker and awkward looking.  */
 	border-radius: 0px !important;
 	z-index: 2;
 }
+/* ---- Float clearfix ---- */
 
+	.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
 /*navigation bar "GlucOracle" logo*/
 .logo
 {
