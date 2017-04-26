@@ -125,7 +125,8 @@
           var stickyElement = $(this);
 
           var stickyId = stickyElement.attr('id');
-          var stickyHeight = stickyElement.outerHeight();
+          // var stickyHeight = stickyElement.outerHeight();
+          var stickyHeight = Math.max(68,stickyElement.,outerHeight())
           var wrapperId = stickyId ? stickyId + '-' + defaults.wrapperClassName : defaults.wrapperClassName
           var wrapper = $('<div></div>')
             .attr('id', wrapperId)
