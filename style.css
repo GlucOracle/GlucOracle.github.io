@@ -27,6 +27,7 @@ h1 {
 	width:500px;
 }
 
+/* BELOW is taken from : http://jsfiddle.net/J8dSN/1/ */
 .email input 
 {
 	background-color: white;
@@ -39,6 +40,13 @@ h1 {
 	 margin-top: 15px;
 	 width: 85%;
 }
+.form-wrapper {
+	height: 80px;
+	background: #555;
+	color: #FFF;
+	clear: both;
+}
+
 
 .banner
 {
