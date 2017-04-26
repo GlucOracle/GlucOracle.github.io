@@ -28,7 +28,7 @@ h1 {
 }
 .email input 
  {
- 	background-color: white;
+ 	 background-color: white;
  	 border-radius: 10px;
  	 border: 5px solid #E5E4E2;
  	 margin: 2px;
@@ -39,6 +39,17 @@ h1 {
  	 width: 85%;
  }
 
+.email button
+{
+	background-color: #3EC9C3;
+	border-radius: 10px;
+ 	border: 5px solid #E5E4E2;
+ 	margin: 2px;
+ 	 height: 40px;
+ 	 vertical-align: middle;
+ 	 padding: 20px;
+ 	 margin-top: 15px;
+}
 /* BELOW is taken from : http://jsfiddle.net/J8dSN/1/ */
 /*.form-wrapper input
 {
