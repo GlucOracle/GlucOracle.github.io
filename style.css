@@ -28,7 +28,7 @@ h1 {
 }
 
 /* BELOW is taken from : http://jsfiddle.net/J8dSN/1/ */
-.email input 
+.form-wrapper input
 {
 	background-color: white;
 	 border-radius: 10px;
@@ -47,7 +47,13 @@ h1 {
 	clear: both;
 }
 
-
+.form-wrapper input {
+	background-color: white;
+	border-radius: 10px;
+	border: 5px solid #E5E4E2;
+	margin: 2px;
+	height: 40px;
+}
 .banner
 {
 	/*background-color: #341F48;*/
