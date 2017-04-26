@@ -19,18 +19,19 @@ h1 {
 	margin: 0px;
 }
 
-.email
+/*.email
 {
 	font-family: 'Raleway', sans-serif;
 	font-color:black;
 	height: 150px;
 	width:500px;
-}
+}*/
 
 /* BELOW is taken from : http://jsfiddle.net/J8dSN/1/ */
 .form-wrapper input
 {
-	background-color: white;
+	 font-family: 'Raleway', sans-serif;
+	 background-color: white;
 	 border-radius: 10px;
 	 border: 5px solid #E5E4E2;
 	 margin: 2px;
@@ -48,6 +49,7 @@ h1 {
 }
 
 .form-wrapper input {
+	font-family: 'Raleway', sans-serif;
 	background-color: white;
 	border-radius: 10px;
 	border: 5px solid #E5E4E2;
