@@ -18,6 +18,14 @@ h1 {
 	padding: 0px;
 	margin: 0px;
 }
+
+.email
+{
+	font-color:black;
+	height: 100px;
+	width:100px;
+}
+
 .banner
 {
 	/*background-color: #341F48;*/
