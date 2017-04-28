@@ -331,11 +331,12 @@ Instead it made the navigation tool bar thicker and awkward looking.  */
 }
 /* ---- Float clearfix ---- */
 
-	.clearfix::after {
+/*.clearfix::after 
+{
 		content: " ";
 		display: table;
 		clear: both;
-	}
+}*/
 /*navigation bar "GlucOracle" logo*/
 .logo
 {
