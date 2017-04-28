@@ -479,6 +479,17 @@ Instead it made the navigation tool bar thicker and awkward looking.  */
 	/*float: right;*/
 }
 
+.emphasis strong {
+    color: #CB5750;
+    font-weight: bold;
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 16px;
+    /*margin-top: 5px;*/
+    margin: 0px;
+	width: 100%;
+	/*float: right;*/
+}
+
 /*------------------------------------------/
 /-----------------Program-------------------/
 /------------------------------------------*/
