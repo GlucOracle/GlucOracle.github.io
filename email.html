@@ -156,31 +156,10 @@
 
         <!-- Visually Hidden Preheader Text : BEGIN -->
         <div style="display:none;font-size:1px;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;font-family: sans-serif;">
-            Welcome to the GlucOracle Family! 
             <!-- (Optional) This text will appear in the inbox preview, but not the email body. -->
         </div>
-        <!-- Visually Hidden Preheader Text : END -->
-
-        <!--
-            Set the email width. Defined in two places:
-            1. max-width for all clients except Desktop Windows Outlook, allowing the email to squish on narrow but never go wider than 600px.
-            2. MSO tags for Desktop Windows Outlook enforce a 600px width.
-        -->
+        
         <div style="max-width: 600px; margin: auto;" class="email-container">
-            <!--[if mso]>
-            <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" width="600" align="center">
-            <tr>
-            <td>
-            <![endif]-->
-
-            <!-- Email Header : BEGIN -->
-            <!-- <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="max-width: 600px;">
-                <tr>
-                    <td style="padding: 20px 0; text-align: center">
-                        <img src="http://placehold.it/200x50" aria-hidden="true" width="200" height="50" alt="alt_text" border="0" style="height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
-                    </td>
-                </tr>
-            </table> -->
             <!-- Email Header : END -->
 
             <!-- Email Body : BEGIN -->
@@ -200,9 +179,9 @@
                         <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" width="100%">
                             <tr>
                                 <td style="padding: 40px; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
-                                    <h1 style="margin: 0 0 10px 0; font-family: sans-serif; font-size: 24px; line-height: 27px; color: #333333; font-weight: normal;">Welcome to GlucOracle</h1>
-                                    <p>Great work! You’ve just recorded your first meal with GlucOracle, your personal glucose forecasting assistant.</p>
-                                    <p style="margin: 0;">As you log meals and glucose readings, you will begin to receive forecasts of post-meal glucose levels--at first, these forecasts will be based on a typical response for an average person with diabetes; then, as GlucOracle learns more about <strong>your</strong> unique physiology, the forecasts will be custom-tailored to <strong>you</strong>.</p>
+                                    <h1 style="margin: 0 0 10px 0; font-family: sans-serif; font-size: 24px; line-height: 27px; color: #333333; font-weight: normal;">Hello and welcome to <strong>GlucOracle</strong>, <br>your personal glucose forecasting assistant! </h1>
+                                    <p>GlucOracle is a research project at Columbia University and you are now participating in a research study. To learn more about GlucOracle, check out our FAQs below. </p>
+                                    <!-- <p style="margin: 0;">As you log meals and glucose readings, you will begin to receive forecasts of post-meal glucose levels--at first, these forecasts will be based on a typical response for an average person with diabetes; then, as GlucOracle learns more about <strong>your</strong> unique physiology, the forecasts will be custom-tailored to <strong>you</strong>.</p> -->
                                 </td>
                             </tr>
                             <tr>
@@ -220,19 +199,44 @@
                                     <!-- Button : END -->
                                 </td>
                             </tr>
-                            <tr>
+
+
+
+
+                            <!-- <tr>
                                 <td style="padding: 40px; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
                                     <h2 style="margin: 0 0 10px 0; font-family: sans-serif; font-size: 18px; line-height: 21px; color: #333333; font-weight: bold;">Praesent in felis ut velit pretium lobortis rhoncus ut&nbsp;erat.</h2>
                                     <p style="margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent laoreet malesuada cursus. Maecenas scelerisque congue eros eu posuere. Praesent in felis ut velit pretium lobortis rhoncus ut&nbsp;erat.</p>
                                 </td>
+                            </tr> -->
+
+                            <tr>
+                                <td style="padding: 40px; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
+                                    <!-- <h1 style="margin: 0 0 10px 0; font-family: sans-serif; font-size: 24px; line-height: 27px; color: #333333; font-weight: normal;">Welcome to GlucOracle</h1> -->
+                                
+                                    <p style="margin: 0;">
+                                    Now that you have joined the GlucOracle family, let’s go ahead and get started. <strong>Start logging your meals and blood glucose levels <i style="color:#FF0000";>before</i> and <i style="color:#FF0000";>after</i> each meal. </strong> For details about how to use GlucOracle, <a href="http://www.glucoracle.com/#using_app">click here</a>. </p>
+                                    <p tyle="margin: 0;">GlucOracle uses a sophisticated computational model to learn how your body processes meals and controls blood glucose. The more you log, the better the forecasts will be—personalized forecasts only become available after you’ve recorded at least 20 meals and 50 blood glucose readings. </p>
+
+                                    <p tyle="margin: 0;">We realize that recording 20 meals takes time and commitment. To make it more interesting, after you record your first 9 meals, for each new meal you will receive its nutritional assessment from a crowdsourcing engine. To find out more about this crowdsourcing mechanism, <a href="http://www.eecs.harvard.edu/~kgajos/papers/2011/noronha11platemate.shtml">click here</a>. </p>
+
+                                    <p>For questions or comments, please <a href= "http://www.glucoracle.com/#contact">submit a comment on our website</a> or email us at <strong>support@GlucOracle.com</strong>. </p>
+
+                                    <p>Thank you for joining us and let’s get started!</p>
+                                    <p>Sincerely, <br>The GlucOracle team</p>
+
+                                </td>
                             </tr>
+
+
+
                         </table>
                     </td>
                 </tr>
                 <!-- 1 Column Text + Button : END -->
 
                 <!-- 2 Even Columns : BEGIN -->
-                <tr>
+                <!-- <tr>
                     <td bgcolor="#ffffff" align="center" height="100%" valign="top" width="100%" style="padding-bottom: 40px">
                         <table role="presentation" aria-hidden="true" border="0" cellpadding="0" cellspacing="0" align="center" width="100%" style="max-width:560px;">
                             <tr>
@@ -267,7 +271,7 @@
                             </tr>
                         </table>
                     </td>
-                </tr>
+                </tr> -->
                 <!-- Two Even Columns : END -->
 
                 <!-- Clear Spacer : BEGIN -->
@@ -279,7 +283,7 @@
                 <!-- Clear Spacer : END -->
 
                 <!-- 1 Column Text : BEGIN -->
-                <tr>
+                <!-- <tr>
                     <td bgcolor="#ffffff">
                         <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" width="100%">
                             <tr>
@@ -289,14 +293,14 @@
                                 </tr>
                         </table>
                     </td>
-                </tr>
+                </tr> -->
                 <!-- 1 Column Text : END -->
 
             </table>
             <!-- Email Body : END -->
 
             <!-- Email Footer : BEGIN -->
-            <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="max-width: 680px;">
+            <!-- <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="max-width: 680px;">
                 <tr>
                     <td style="padding: 40px 10px;width: 100%;font-size: 12px; font-family: sans-serif; line-height:18px; text-align: center; color: #888888;" class="x-gmail-data-detectors">
                         <webversion style="color:#cccccc; text-decoration:underline; font-weight: bold;">View as a Web Page</webversion>
@@ -306,7 +310,7 @@
                         <unsubscribe style="color:#888888; text-decoration:underline;">unsubscribe</unsubscribe>
                     </td>
                 </tr>
-            </table>
+            </table> -->
             <!-- Email Footer : END -->
 
             <!--[if mso]>
