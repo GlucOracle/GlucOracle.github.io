@@ -8,7 +8,7 @@
     <title></title> <!-- The title tag shows in email notifications, like Android 4.4. -->
 
     <!-- Web Font / @font-face : BEGIN -->
-	<!-- NOTE: If web fonts are not required, lines 10 - 27 can be safely removed. -->
+    <!-- NOTE: If web fonts are not required, lines 10 - 27 can be safely removed. -->
 
     <!-- Desktop Outlook chokes on web font references and defaults to Times New Roman, so we force a safe fallback font. -->
     <!--[if mso]>
@@ -26,7 +26,7 @@
 
     <!-- Web Font / @font-face : END -->
 
-	<!-- CSS Reset -->
+    <!-- CSS Reset -->
     <style>
 
         /* What it does: Remove spaces around the email design added by some email clients. */
@@ -89,13 +89,13 @@
 
         /* What it does: Prevents Gmail from displaying an download button on large, non-linked images. */
         .a6S {
-	        display: none !important;
-	        opacity: 0.01 !important;
+            display: none !important;
+            opacity: 0.01 !important;
         }
         /* If the above doesn't work, add a .g-img class to any image in question. */
         img.g-img + div {
-	        display:none !important;
-	   	}
+            display:none !important;
+        }
 
         /* What it does: Prevents underlining the button text in Windows 10 */
         .button-link {
@@ -114,14 +114,14 @@
     </style>
 
     <!-- What it does: Makes background images in 72ppi Outlook render at correct size. -->
-	<!--[if gte mso 9]>
-	<xml>
-		<o:OfficeDocumentSettings>
-			<o:AllowPNG/>
-			<o:PixelsPerInch>96</o:PixelsPerInch>
-		</o:OfficeDocumentSettings>
-	</xml>
-	<![endif]-->
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+    </xml>
+    <![endif]-->
 
     <!-- Progressive Enhancements -->
     <style>
@@ -141,11 +141,11 @@
         @media screen and (max-width: 600px) {
 
             /* What it does: Adjust typography on small screens to improve readability */
-			.email-container p {
-				font-size: 17px !important;
-				line-height: 22px !important;
-			}
-			
+            .email-container p {
+                font-size: 17px !important;
+                line-height: 22px !important;
+            }
+
         }
 
     </style>
@@ -156,7 +156,7 @@
 
         <!-- Visually Hidden Preheader Text : BEGIN -->
         <div style="display:none;font-size:1px;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;font-family: sans-serif;">
-            Welcome to the GlucOracle Family! 
+            Welcome to the GlucOracle Family!
             <!-- (Optional) This text will appear in the inbox preview, but not the email body. -->
         </div>
         <!-- Visually Hidden Preheader Text : END -->
@@ -201,12 +201,11 @@
                             <tr>
                                 <td style="padding: 40px; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
                                     <h1 style="margin: 0 0 10px 0; font-family: sans-serif; font-size: 24px; line-height: 27px; color: #333333; font-weight: normal;">GlucOracle, your personal glucose forecasting assistant!</h1>
-                                    <p>Great work! You’ve just recorded your first meal with GlucOracle, your personal glucose forecasting assistant, and started training your personal model.</p>
-                                    <p style="margin: 0;">As you log meals and glucose readings, you will begin to receive forecasts of post-meal glucose levels. As GlucOracle learns more about your unique physiology, the forecasts will be custom-tailored to <i>you</i>. However, the model needs at least 20 meals and 50 blood glucose readings to start generating forecasts. So keep recording those meals!</p>
+                                    <p>Congratulations! You have recorded 9 meals and are half-way to receiving your personalized blood glucose forecasts!</p>
                                 </td>
                             </tr>
                             <tr>
-                            	<td style="padding: 0 40px; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
+                                <td style="padding: 0 40px; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
                                     <!-- Button : BEGIN -->
                                     <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center" style="margin: auto;">
                                         <tr>
@@ -220,19 +219,14 @@
                                     <!-- Button : END -->
                                 </td>
                             </tr>
+
                             <tr>
                                 <td style="padding: 40px; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
-                                    <!-- <h1 style="margin: 0 0 10px 0; font-family: sans-serif; font-size: 24px; line-height: 27px; color: #333333; font-weight: normal;">Welcome to GlucOracle</h1> -->
-                                
-                                    <p style="margin: 0;">
-                                    Don’t forget to log your glucose level <strong>after</strong> the meal as well--these post-meal readings are essential for GlucOracle’s computational engines to learn your body’s response to food.</p>
-
-                                    <p tyle="margin: 0;">Worried you might forget to log a meal or record your post-meal glucose? <br>Not a problem! Learn how you can set your own reminders in the app: </p>
-
-                                    
-
+                                    <p style="margin: 0;">And, in addition to the forecasts, Glucoracle will help you keep track of your nutrition. When you record your next meal, you will receive a nutritional assessment from a crowdsourcing community. To view the assessment, select the meal, and then select “See Feedback” link next to its image. You will see your own assessment as well as assessment by crowdworkers. </p>
                                 </td>
                             </tr>
+                            
+                            
                         </table>
                     </td>
                 </tr>
@@ -247,12 +241,12 @@
                                     <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-size: 14px;text-align: left;">
                                         <tr>
                                             <td style="text-align: center; padding: 0 10px;">
-                                                <img src="images/reminder1.png" aria-hidden="true" width="200" height="" alt="alt_text" border="0" align="center" style="width: 100%; max-width: 200px; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
+                                                <img src="images/gluco_sliders.png" aria-hidden="true" width="200" height="" alt="alt_text" border="0" align="center" style="width: 100%; max-width: 200px; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
                                             </td>
                                         </tr>
                                         <tr>
                                             <td style="text-align: center;font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555; padding: 10px 10px 0;" class="stack-column-center">
-                                                <p style="margin: 0;">Go to the top left corner on the side menu bar and select “Reminders”.</p>
+                                                <p style="margin: 0;">Estimate nutritional content.</p>
                                             </td>
                                         </tr>
                                     </table>
@@ -261,53 +255,36 @@
                                     <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-size: 14px;text-align: left;">
                                         <tr>
                                             <td style="text-align: center; padding: 0 10px;">
-                                                <img src="images/reminder2.png" aria-hidden="true" width="200" height="" alt="alt_text" border="0" align="center" style="width: 100%; max-width: 200px; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
+                                                <img src="images/gluco_feedback.png" aria-hidden="true" width="200" height="" alt="alt_text" border="0" align="center" style="width: 100%; max-width: 200px; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
                                             </td>
                                         </tr>
                                         <tr>
                                             <td style="text-align: center;font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555; padding: 10px 10px 0;" class="stack-column-center">
-                                                <p style="margin: 0;">Press “+” button on the top right corner to add a reminder.</p>
+                                                <p style="margin: 0;">Receive feedback on your esitmated nutrition.</p>
                                             </td>
                                         </tr>
                                     </table>
                                 </td>
-
-                                <td align="center" valign="top" width="50%">
-                                    <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-size: 14px;text-align: left;">
-                                        <tr>
-                                            <td style="text-align: center; padding: 0 10px;">
-                                                <img src="images/reminder3.png" aria-hidden="true" width="200" height="" alt="alt_text" border="0" align="center" style="width: 100%; max-width: 200px; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td style="text-align: center;font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555; padding: 10px 10px 0;" class="stack-column-center">
-                                                <p style="margin: 0;">Click on the clock at the top to choose a time for the reminder.</p>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </td>
-
-                                <td align="center" valign="top" width="50%">
-                                    <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-size: 14px;text-align: left;">
-                                        <tr>
-                                            <td style="text-align: center; padding: 0 10px;">
-                                                <img src="images/reminder4.png" aria-hidden="true" width="200" height="" alt="alt_text" border="0" align="center" style="width: 100%; max-width: 200px; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td style="text-align: center;font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555; padding: 10px 10px 0;" class="stack-column-center">
-                                                <p style="margin: 0;">Click on the type of meal you want that reminder to refer to.</p>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </td>
-
                             </tr>
                         </table>
                     </td>
                 </tr>
                 <!-- Two Even Columns : END -->
 
+                <tr>
+                    <td bgcolor="#ffffff">
+                        <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                                <td style="padding: 40px; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
+                                    <p style="margin: 0;">
+                                     Continue recording your meals to get to the personalized forecasts! And don’t forget to log your glucose level after the meal as well--these post-meal readings are essential for GlucOracle’s computational engines to learn your body’s response to food.</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            
+            </table>
                 <!-- Clear Spacer : BEGIN -->
                 <tr>
                     <td height="40" style="font-size: 0; line-height: 0;">
@@ -315,7 +292,7 @@
                     </td>
                 </tr>
                 <!-- Clear Spacer : END -->
-
+             <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="max-width: 600px;">
                 <!-- 1 Column Text : BEGIN -->
                 <tr>
                     <td bgcolor="#ffffff">
@@ -323,6 +300,7 @@
                             <tr>
                                 <td style="padding: 40px; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
                                     <p>For questions or comments, please <a href= "http://www.glucoracle.com/#contact">submit a comment on our website</a> or email us at <strong>support@GlucOracle.com</strong>. </p>
+                                    <p>To stop receiving these emails, <a href="*|UNSUBSCRIBE_URL|*">unsubscribe</a>.</p>
 
                                     <p>Thank you for joining us and let’s get started!</p>
                                     <p>Sincerely, <br>The GlucOracle team</p>
@@ -337,7 +315,7 @@
             <!-- Email Body : END -->
 
             <!-- Email Footer : BEGIN -->
-            <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="max-width: 680px;">
+             <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="max-width: 680px;">
                 <tr>
                     <td style="padding: 40px 10px;width: 100%;font-size: 12px; font-family: sans-serif; line-height:18px; text-align: center; color: #888888;" class="x-gmail-data-detectors">
                         <!-- <webversion style="color:#cccccc; text-decoration:underline; font-weight: bold;">View as a Web Page</webversion>
