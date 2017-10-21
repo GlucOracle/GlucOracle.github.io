@@ -145,7 +145,7 @@
 				font-size: 17px !important;
 				line-height: 22px !important;
 			}
-			
+
         }
 
     </style>
@@ -156,10 +156,31 @@
 
         <!-- Visually Hidden Preheader Text : BEGIN -->
         <div style="display:none;font-size:1px;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;font-family: sans-serif;">
+            Welcome to the GlucOracle Family!
             <!-- (Optional) This text will appear in the inbox preview, but not the email body. -->
         </div>
-        
+        <!-- Visually Hidden Preheader Text : END -->
+
+        <!--
+            Set the email width. Defined in two places:
+            1. max-width for all clients except Desktop Windows Outlook, allowing the email to squish on narrow but never go wider than 600px.
+            2. MSO tags for Desktop Windows Outlook enforce a 600px width.
+        -->
         <div style="max-width: 600px; margin: auto;" class="email-container">
+            <!--[if mso]>
+            <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" width="600" align="center">
+            <tr>
+            <td>
+            <![endif]-->
+
+            <!-- Email Header : BEGIN -->
+            <!-- <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="max-width: 600px;">
+                <tr>
+                    <td style="padding: 20px 0; text-align: center">
+                        <img src="http://placehold.it/200x50" aria-hidden="true" width="200" height="50" alt="alt_text" border="0" style="height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
+                    </td>
+                </tr>
+            </table> -->
             <!-- Email Header : END -->
 
             <!-- Email Body : BEGIN -->
@@ -168,7 +189,7 @@
                 <!-- Hero Image, Flush : BEGIN -->
                 <tr>
                     <td bgcolor="#ffffff">
-                        <img src="images/blurry.png" aria-hidden="true" width="600" height="" alt="alt_text" border="0" align="center" style="width: 100%; max-width: 600px; height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;" class="g-img">
+                        <img src="http://www.glucoracle.com/images/blurry.png" aria-hidden="true" width="600" height="" alt="alt_text" border="0" align="center" style="width: 100%; max-width: 600px; height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;" class="g-img">
                     </td>
                 </tr>
                 <!-- Hero Image, Flush : END -->
@@ -179,13 +200,18 @@
                         <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" width="100%">
                             <tr>
                                 <td style="padding: 40px; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
-                                    <h1 style="margin: 0 0 10px 0; font-family: sans-serif; font-size: 24px; line-height: 27px; color: #333333; font-weight: normal;"><strong>GlucOracle</strong>, your personal glucose forecasting assistant! </h1>
-                                    <p>Congrats! You have recorded 20 meals and have received your personalized blood glucose forecast! </p>
-                                    
+                                    <h1 style="margin: 0 0 10px 0; font-family: sans-serif; font-size: 24px; line-height: 27px; color: #333333; font-weight: normal;"><strong>GlucOracle</strong>, your personal glucose forecasting assistant!</h1>
+                                    <br>
+
+
+                                    <p style="margin: 0;">We’ve missed you. &nbsp;&nbsp;&nbsp;</p>
+                                    <br>
+                                    <p style="margin: 0;">You are just a few meals away from from receiving your <strong>personalized glucose forecasts</strong>. Keep logging your meals and blood glucose readings <strong><i style="color:#FF0000";>before</i> and <i style="color:#FF0000";>after</i> your meals</strong> to train your model and contribute to exciting research. </p>
                                 </td>
                             </tr>
+
                             <tr>
-                            	<td style="padding: 0 40px; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
+                                <td style="padding: 0 40px; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
                                     <!-- Button : BEGIN -->
                                     <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center" style="margin: auto;">
                                         <tr>
@@ -200,17 +226,13 @@
                                 </td>
                             </tr>
 
-
                             <tr>
                                 <td style="padding: 40px; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
-                                    <!-- <h1 style="margin: 0 0 10px 0; font-family: sans-serif; font-size: 24px; line-height: 27px; color: #333333; font-weight: normal;">Welcome to GlucOracle</h1> -->
-                                
-                                    <p style="margin: 0;">
-                                    Because these predictions are made by a computing system, and not real clinicians, they may be inaccurate. If you use these predictions to adjust your medications without consulting your healthcare team, your blood glucose may change more than you anticipated and you may experience a hypoglycemic episode. To avoid these risks, <strong>never adjust your medications without consulting your healthcare team</strong>. </p>
+                                 <!-- <h1 style="margin: 0 0 10px 0; font-family: sans-serif; font-size: 24px; line-height: 27px; color: #333333; font-weight: normal;">Welcome to GlucOracle</h1> -->
 
-                                    <p tyle="margin: 0;">Continue recording your meals to continue improving the accuracy of your forecasts! And don’t forget to log your glucose level <strong>after</strong> the meal as well--these post-meal readings are essential for GlucOracle’s computational engines to learn your body’s response to food. </p>
-  
-                                </td>
+                                  <p tyle="margin: 0;">Worried you might forget to log a meal or record your post-meal glucose? <br>Not a problem! Learn how you can set your own reminders in the app: </p>
+
+                                 </td>
                             </tr>
 
 
@@ -218,10 +240,16 @@
                         </table>
                     </td>
                 </tr>
+
+
+
+
+
+
                 <!-- 1 Column Text + Button : END -->
 
                 <!-- 2 Even Columns : BEGIN -->
-                <!-- <tr>
+                <tr>
                     <td bgcolor="#ffffff" align="center" height="100%" valign="top" width="100%" style="padding-bottom: 40px">
                         <table role="presentation" aria-hidden="true" border="0" cellpadding="0" cellspacing="0" align="center" width="100%" style="max-width:560px;">
                             <tr>
@@ -229,12 +257,12 @@
                                     <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-size: 14px;text-align: left;">
                                         <tr>
                                             <td style="text-align: center; padding: 0 10px;">
-                                                <img src="http://placehold.it/200" aria-hidden="true" width="200" height="" alt="alt_text" border="0" align="center" style="width: 100%; max-width: 200px; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
+                                                <img src="http://www.glucoracle.com/images/reminder1.png" aria-hidden="true" width="200" height="" alt="alt_text" border="0" align="center" style="width: 100%; max-width: 200px; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
                                             </td>
                                         </tr>
                                         <tr>
                                             <td style="text-align: center;font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555; padding: 10px 10px 0;" class="stack-column-center">
-                                                <p style="margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora per conubia nostra, per torquent inceptos&nbsp;himenaeos.</p>
+                                                <p style="margin: 0;">Go to the top left corner on the side menu bar and select “Reminders”.</p>
                                             </td>
                                         </tr>
                                     </table>
@@ -243,22 +271,59 @@
                                     <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-size: 14px;text-align: left;">
                                         <tr>
                                             <td style="text-align: center; padding: 0 10px;">
-                                                <img src="http://placehold.it/200" aria-hidden="true" width="200" height="" alt="alt_text" border="0" align="center" style="width: 100%; max-width: 200px; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
+                                                <img src="http://www.glucoracle.com/images/reminder2.png" aria-hidden="true" width="200" height="" alt="alt_text" border="0" align="center" style="width: 100%; max-width: 200px; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
                                             </td>
                                         </tr>
                                         <tr>
                                             <td style="text-align: center;font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555; padding: 10px 10px 0;" class="stack-column-center">
-                                                <p style="margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora per conubia nostra, per torquent inceptos&nbsp;himenaeos.</p>
+                                                <p style="margin: 0;">Press “+” button on the top right corner to add a reminder.</p>
                                             </td>
                                         </tr>
                                     </table>
                                 </td>
+
+                                <td align="center" valign="top" width="50%">
+                                    <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-size: 14px;text-align: left;">
+                                        <tr>
+                                            <td style="text-align: center; padding: 0 10px;">
+                                                <img src="http://www.glucoracle.com/images/reminder3.png" aria-hidden="true" width="200" height="" alt="alt_text" border="0" align="center" style="width: 100%; max-width: 200px; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: center;font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555; padding: 10px 10px 0;" class="stack-column-center">
+                                                <p style="margin: 0;">Click on the clock at the top to choose a time for the reminder.</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+
+                                <td align="center" valign="top" width="50%">
+                                    <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-size: 14px;text-align: left;">
+                                        <tr>
+                                            <td style="text-align: center; padding: 0 10px;">
+                                                <img src="http://www.glucoracle.com/images/reminder4.png" aria-hidden="true" width="200" height="" alt="alt_text" border="0" align="center" style="width: 100%; max-width: 200px; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: center;font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555; padding: 10px 10px 0;" class="stack-column-center">
+                                                <p style="margin: 0;">Click on the type of meal you want that reminder to refer to.</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+
                             </tr>
                         </table>
                     </td>
-                </tr> -->
+                </tr>
                 <!-- Two Even Columns : END -->
 
+                <tr>
+                    <td style="padding: 40px; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
+                    <!-- <h1 style="margin: 0 0 10px 0; font-family: sans-serif; font-size: 24px; line-height: 27px; color: #333333; font-weight: normal;">Welcome to GlucOracle</h1> -->
+
+                    </td>
+                </tr>
                 <!-- Clear Spacer : BEGIN -->
                 <tr>
                     <td height="40" style="font-size: 0; line-height: 0;">
@@ -273,8 +338,8 @@
                         <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" width="100%">
                             <tr>
                                 <td style="padding: 40px; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
-                                    
                                     <p>For questions or comments, please <a href= "http://www.glucoracle.com/#contact">submit a comment on our website</a> or email us at <strong>support@GlucOracle.com</strong>. </p>
+                                    <p>To stop receiving these emails, <a href="*|UNSUBSCRIBE_URL|*">unsubscribe</a>.</p>
 
                                     <p>Thank you for joining us and let’s get started!</p>
                                     <p>Sincerely, <br>The GlucOracle team</p>
@@ -282,7 +347,7 @@
                                 </tr>
                         </table>
                     </td>
-                </tr> 
+                </tr>
                 <!-- 1 Column Text : END -->
 
             </table>
