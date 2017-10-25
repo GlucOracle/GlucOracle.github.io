@@ -510,7 +510,7 @@
       <p style="color:black"><span class="glyphicon glyphicon-envelope"></span> support@glucoracle.com</p>
     </div>
     
-   <form id="contactform" action="https://formspree.io/support@glucoracle.com" style="color:black;" method="POST"> 
+   <form id="contactform" action="https://formspree.io/mhwang502@gmail.com" style="color:black;" method="POST"> 
     <div class="col-sm-7 slideanim">
       <div class="row">
         
@@ -528,7 +528,12 @@
 
       <div class="row">
         <div class="col-sm-12 form-group">
-          <button class="btn btn-default pull-right" type="submit">Send</button>
+          <button class="btn btn-default pull-right" Value="Send" type="submit">Send</button>
+          <!-- I can also add _next to another hidden input to specify which url I’d like users to be sent to once they’ve submitted the form -->
+          <input type="hidden" name="_next" value="http://glucoracle.com" />
+          <!-- In order for me to know where the submission comes from I’m going to add a subject line. I can do this by adding the following hidden input: -->
+          <input type="hidden" name="_subject" value="GlucOracle Website contact" />
+          <!-- This field will not appear when a user views the form, but the value will be used for the subject line when I receive a submission. -->
         </div>
       </div>
 
