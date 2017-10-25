@@ -510,7 +510,7 @@
       <p style="color:black"><span class="glyphicon glyphicon-envelope"></span> support@glucoracle.com</p>
     </div>
     
-   <form action="https://formspree.io/support@glucoracle.com" style="color:black;" method="POST"> 
+   <form id="contactform" action="https://formspree.io/support@glucoracle.com" style="color:black;" method="POST"> 
     <div class="col-sm-7 slideanim">
       <div class="row">
         
@@ -519,7 +519,7 @@
         </div>
 
         <div class="col-sm-6 form-group">
-          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+          <input class="form-control" id="email" type="email" name="_replyto" placeholder="Your Email" value="" onfocus="if(this.value == 'your@email.com'){this.value ='';this.style.color='#999'}" style="color:black;" required>
         </div>
 
       </div>
